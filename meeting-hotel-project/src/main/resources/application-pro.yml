@@ -1,0 +1,37 @@
+server:
+  port: 8088
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka/
+
+#  instance:  http://192.168.0.238:8888/swagger-ui.html
+#      prefer-ip-address: true
+#      instanceId: ${spring.cloud.client.ipAddress}:${server.port}
+#      status-page-url: http://${spring.cloud.client.ipAddress}:${server.port}/swagger-ui.html
+
+spring:
+  application:
+    name: meetingHotelCenter
+  datasource:
+    url: jdbc:mysql://localhost:3306/s_meet?serverTimezone=GMT%2B8&characterEncoding=UTF-8&createDatabaseIfNotExist=true
+    username: root
+    password: qwaszx
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+
+  jpa:
+    properties:
+      hibernate:
+        dialect: com.hz.general.config.MySQL5DialectUtf8
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+  redis:
+    host: localhost
+    port: 6379
+    password:
+    timeout: 2000

@@ -1,0 +1,38 @@
+Accept: application/json
+
+### /meetinghotelroom/list/402880ac71c9338e0171c9dac79a021c/1/99999
+GET http://192.168.0.250:21000/meetinghotelcenter/meetinghotel/test
+Content-Type: application/json
+Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0MDI4ODBhYzcwYmVjNTMxMDE3MGJlYzljNGRlMDAwMiJ9.eEN2fCbb3QY8dy-v2el5bgznorEfhGHgZ2tcEyNY_6E
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0MDI4ODBhYzcwYmVjNTMxMDE3MGJlYzljNGRlMDAwMiJ9.eEN2fCbb3QY8dy-v2el5bgznorEfhGHgZ2tcEyNY_6E
+
+
+{"number_of_replicas":"0"}
+
+###
+GET http://localhost:21060/meeting-sign/meetingsign/test
+Accept: application/json
+
+//  java -Djava.ext.dirs='./lib;'  -jar  meeting-sign-0.0.1-SNAPSHOT.jar
+
+#Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0MDI4ODBhYzcwYmVjNTMxMDE3MGJlYzljNGRlMDAwMiJ9.eEN2fCbb3QY8dy-v2el5bgznorEfhGHgZ2tcEyNY_6E
+#token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0MDI4ODBhYzcwYmVjNTMxMDE3MGJlYzljNGRlMDAwMiJ9.eEN2fCbb3QY8dy-v2el5bgznorEfhGHgZ2tcEyNY_6E
+
+###
+nohup java -jar meet-test.jar --spring.profiles.active=pro
+
+/opt/meet-project/tomcat/apache-tomcat-9.0.31/webapps/vue-meeting-manager
+
+###
+
+
+
+
+
+
+
+
+
+
+
+
