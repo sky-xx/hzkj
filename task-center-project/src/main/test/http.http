@@ -1,0 +1,26 @@
+
+GET http://192.168.0.250:21000/huiwucenter/meetingworker/getUsers/402880ac7234cd85017234f28972002a/1/10?isAdmin=false
+#GET http://localhost:21110/meetingworkergroup/getByMeetingId/121
+Accept: application/json
+Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0MDI4ODBhYzcyMzRjY2NkMDE3MjM0ZGYzMTcwMDAyYSJ9.ha_86lMqcLBv3HciEwV_XJMiwOghKKvcrWZ2kwJl2vk
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0MDI4ODBhYzcyMzRjY2NkMDE3MjM0ZGYzMTcwMDAyYSJ9.ha_86lMqcLBv3HciEwV_XJMiwOghKKvcrWZ2kwJl2vk
+
+
+
+
+
+###
+PUT http://localhost:1091/testDdd/update
+Content-Type: application/json
+
+{"ttt": "test","testAab": "test","id": "222"}
+
+###
+
+
+
+
+
+
+
+
